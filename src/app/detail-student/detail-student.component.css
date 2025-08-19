@@ -1,0 +1,21 @@
+.three-column-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Add space between items */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+  }
+  
+  .column-item {
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .column-item img {
+    max-width: 100%; /* Ensures the image fits the column width */
+    height: auto;
+  }
+  

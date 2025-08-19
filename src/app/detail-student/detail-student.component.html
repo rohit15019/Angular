@@ -1,0 +1,14 @@
+<ul class="student-list">
+  <li *ngFor="let student of temp">
+    <h3>{{ student.createdAt }}</h3>
+    <h1>{{ student.name }}</h1>
+    <img src={{student.avatar}} />
+    <h2>{{ student.id }}</h2>
+    <button routerLink="{{student.id}}">read more</button>
+  </li>
+</ul>
+
+<!-- <ul>
+  <li *ngFor="let student of temp">
+    <h1>{{ student.username }}</h1>   </li>
+</ul> -->
